@@ -1,0 +1,134 @@
+.SignUp-Container {
+  height: 100%;
+  width: 100%;
+  // width: 1366px;
+  .SignUp-SubContainer {
+    height: inherit;
+    width: inherit;
+
+    .Header {
+      height: 7.5%;
+    }
+
+    .Body {
+      width: 100%;
+      height: 92.5%;
+      //
+      background: rgb(0, 35, 36);
+      background: linear-gradient(
+        45deg,
+        rgba(0, 35, 36, 1) 0%,
+        rgba(9, 47, 121, 1) 35%,
+        rgba(0, 255, 119, 1) 100%
+      );
+
+      .Sub-Body1 {
+        width: 100%;
+        height: 90%;
+        // border: 0.5px solid black;
+        box-sizing: border-box;
+        display: flex;
+
+        .Sub-Sub-Body1 {
+          width: 55%;
+          height: 100%;
+          // border: 0.5px solid black;
+          box-sizing: border-box;
+
+          .Sub-Sub-Body1-Header {
+            height: 20%;
+            width: 100%;
+            // border: 0.5px solid black;
+            box-sizing: border-box;
+            padding: 20px;
+            font-family: "Roboto";
+            font-weight: 600;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            color: white;
+          }
+
+          .Sub-Sub-Body1-Image {
+            height: 80%;
+            width: 100%;
+            // border: 0.5px solid black;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .HomeImage {
+              height: 100%;
+              width: 65%;
+            }
+          }
+        }
+
+        .Sub-Sub-Body2 {
+          width: 45%;
+          height: 100%;
+          // border: 0.5px solid black;
+          box-sizing: border-box;
+          padding: 20px 100px 20px 20px;
+
+          .Sub-Sub-Body2-Header {
+            font-family: "Roboto";
+            font-weight: 600;
+            font-size: 25px;
+          }
+
+          .Sub-Sub-Body2-Form {
+            margin: 50px 0px;
+
+            .Sub-Form1 {
+              width: 100%;
+              height: 20%;
+              // border: 0.5px solid lightgray;
+
+              .TextField {
+                background-color: white;
+                border-radius: 5px;
+              }
+            }
+
+            .Sub-Form2 {
+              width: 100%;
+              height: 80%;
+              display: flex;
+              flex-direction: column;
+              // border: 0.5px solid lightgray;
+              padding: 10px 50px;
+
+              .TextField {
+                background-color: white;
+                border-radius: 5px;
+              }
+            }
+          }
+        }
+      }
+
+      .Sub-Body2 {
+        width: 100%;
+        height: 10%;
+        border-top: 0.5px solid black;
+        box-sizing: border-box;
+        padding: 15px;
+        font-weight: 600;
+        color: white;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.TextField {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3;
+}

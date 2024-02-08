@@ -1,0 +1,107 @@
+.Packages-Container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: "Roboto";
+  color: black;
+
+  .Admin-Packages-Header {
+    background-color: rgb(1, 1, 56);
+    width: 100%;
+    height: 8%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+    .search {
+      position: relative;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.151);
+      margin: 0 30px 0 0;
+      width: 300px;
+      height: 32px;
+      display: flex;
+    }
+    .search .searchIcon {
+      padding: 0 10px;
+      width: 8%;
+      height: 100%;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .search .inputRoot {
+      color: inherit;
+      width: 92%;
+    }
+    .search .inputInput {
+      padding: 10px 10px 10px 0;
+      width: 100%;
+    }
+    .search:is(:hover) {
+      background-color: rgba(255, 255, 255, 0.212);
+    }
+  }
+
+  .Admin-Packages-Body {
+    padding: 10px;
+    box-sizing: border-box;
+    height: 84%;
+    width: 100%;
+    display: flex;
+    // flex-direction: row;
+
+    .Admin-Packages-SubBody1 {
+      width: 35%;
+      height: 100%;
+      border: 1px solid lightgray;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .Admin-Packages-SubBody2 {
+      width: 75%;
+      height: 100%;
+      border: 1px solid lightgray;
+    }
+  }
+
+  .Admin-Packages-Footer {
+    width: 100%;
+    height: 8%;
+    background-color: #b3bcdd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.Sub-Form1 {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Sub-Form2 {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .TextField {
+    background-color: white;
+    border-radius: 5px;
+  }
+}

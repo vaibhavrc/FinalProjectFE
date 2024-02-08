@@ -1,0 +1,38 @@
+/* body {
+    background-color: #9dc9ee;
+    background-size: 100% 840px;
+  } */
+.main {
+  background-image: url("./images/venue-multi-pg4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+form {
+  // text-align: center;
+  // font-size: 45px;
+  // border-bottom: solid;
+  // color: black;
+  background: rgb(249, 254, 254);
+  background: linear-gradient(
+    0deg,
+    rgba(249, 254, 254, 1) 0%,
+    rgba(161, 241, 116, 1) 35%,
+    rgba(13, 207, 105, 1) 100%
+  );
+
+  //background-color: cyan;
+}
+.btn-info {
+  width: 50%;
+  letter-spacing: 2px;
+  background: transparent;
+  transition: all 0.5% ease-in-out;
+}
+.btn-info:hover {
+  transform: scale(1.05);
+}
+hr {
+  width: 90%;
+  height: 10px;
+}
